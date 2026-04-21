@@ -187,14 +187,14 @@ flowchart TD
 
 ## 9. Student Verification Activity (Practical)
 
-- Run `thread_race_demo.py` to observe race condition and mutual exclusion.
-- Use `Verification_Guide.md` to map the output to Unit 2 theory.
-- Verify section 5 claims directly by comparing without-lock vs with-lock results.
+- Run the C++ validation suite in `03_Practicals_CPP` for full Unit 2 coverage.
+- Use `01_Theory/Verification_Guide.md` to map outputs to Unit 2 theory.
+- Optional: run Python demo in `04_Practicals_Python/thread_race_demo.py` for quick race-condition observation.
 
 Run command:
 
 ```bash
-cd "Unit 2"
-python3 thread_race_demo.py
+cd "03_Practicals_CPP"
+bash scripts/validate_all.sh
 ```
 
