@@ -1,0 +1,19 @@
+# Compiled binaries
+**/bin/
+*.o
+*.out
+*.a
+*.so
+*.dylib
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
